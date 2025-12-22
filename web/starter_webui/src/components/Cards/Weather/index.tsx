@@ -89,7 +89,7 @@ const useStyles = createStyles(({ token, css }) => ({
     align-items: center;
     padding: 12px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    
+
     &:last-child {
       border-bottom: none;
       padding-bottom: 4px;
@@ -151,7 +151,7 @@ export default function Weather(props) {
 
 
   if (!data?.length) return null;
-  
+
   const current = data[0];
   const forecast = data.slice(1);
 
